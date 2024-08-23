@@ -5,9 +5,14 @@ connection = psycopg2.connect(user="postgres",
                                   port="5432",
                                   database="test")
 cursor = connection.cursor()
+
+
+
+
 while True:
     print("1.select 2.insert 3.update 4.delete")
     n=int(input())
+    
     if(n==1):
         postgreSQL_select_Query = "select * from publisher"
         cursor.execute(postgreSQL_select_Query)
