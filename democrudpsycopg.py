@@ -17,7 +17,7 @@ while True:
         for row in publisher_records:
             print("publisher_Id = ", row[0], )
             print("publisher_name = ", row[1])
-            print("publisher_estd  = ", row[2])
+            print("publisher_estd  = ", row[2]) # adding comments
             print("publisher_location  = ", row[3])
             print("publisher_type  = ", row[4], "\n")
     elif(n==2):
